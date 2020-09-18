@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "outDir": "./public",
+
+    "module": "CommonJS",
+
+    "sourceMap": true,
+
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "lib": ["DOM", "ESNext"]
+  },
+  "exclude": ["node_modules"]
+}
